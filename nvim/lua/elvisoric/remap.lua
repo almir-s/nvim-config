@@ -14,3 +14,5 @@ map("n", "<C-h>", "<C-W>h")
 map("n", "<C-l>", "<C-W>l")
 map("n", "<C-j>", "<C-W>j")
 map("n", "<C-k>", "<C-W>k")
+
+map("n", "<leader>e", ":NvimTreeToggle<CR>")
