@@ -78,8 +78,8 @@ keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent = true})
 
 
 -- Formatting selected code
-keyset("x", "<leader>p", "<Plug>(coc-format-selected)", {silent = true})
-keyset("n", "<leader>p", "<Plug>(coc-format-selected)", {silent = true})
+keyset("x", "<leader>cf", "<Plug>(coc-format-selected)", {silent = true})
+keyset("n", "<leader>cf", "<Plug>(coc-format-selected)", {silent = true})
 
 
 -- Setup formatexpr specified filetype(s)
@@ -176,7 +176,7 @@ keyset("n", "<space>a", ":<C-u>CocList diagnostics<cr>", opts)
 -- Manage extensions
 keyset("n", "<space>e", ":<C-u>CocList extensions<cr>", opts)
 -- Show commands
-keyset("n", "<space>c", ":<C-u>CocList commands<cr>", opts)
+keyset("n", "<space>cc", ":<C-u>CocList commands<cr>", opts)
 -- Find symbol of current document
 keyset("n", "<space>o", ":<C-u>CocList outline<cr>", opts)
 -- Search workspace symbols
