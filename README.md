@@ -7,3 +7,4 @@ Steps:
 * call `:PackerSync` from nvim
 * call `CocInstall coc-clangd`
 * Install nerd fonts (this is needed for file icons `nvim-tree/nvim-web-devicons`
+* Install [ripgrep](https://github.com/BurntSushi/ripgrep) for telescope grep to work correctly  
