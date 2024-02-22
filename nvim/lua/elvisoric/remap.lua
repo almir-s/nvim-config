@@ -27,3 +27,5 @@ map("n", "<C-k>", "<C-W>k")
 map("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 -- map('n', 'vx', ':lua require"treesitter-unit".select()<CR>')
+
+map("n", "<leader>t", ":TroubleToggle<CR>")
